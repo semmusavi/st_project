@@ -1,2 +1,3 @@
-# st_project
-this repository is being used for the Advanced Software Engineering course.
+# Advanced Software Enginerring/ Musavi
+this is the README file of my project.
+
