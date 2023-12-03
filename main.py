@@ -26,17 +26,29 @@ class RecipeBook:
                 self.recipe_manager.new_recipe_from_user()
                 print("Recipe added successfully!")
             elif choice == '2':
-                print("search_recipe")
-                #search_recipe(self.recipe_manager)
+                print("Search Recipe")
+                title_to_search = input("Enter the title to search: ")
+                found_recipes = self.recipe_manager.search_recipe(title_to_search)
+                if found_recipes:
+                    for recipe in found_recipes:
+                        print(recipe)
+                else:
+                    print("No recipes found.")
             elif choice == '3':
-                print("delete_recipe")
-                #delete_recipe(self.recipe_manager)
+                print("Delete Recipe")
+                title_to_delete = input("Enter the title of the recipe to delete: ")
+                self.recipe_manager.delete_recipe(title_to_delete)
+                print("Recipe deleted successfully!")
             elif choice == '4':
-                print("update_recipe")
-                #update_recipe(self.recipe_manager)
+                print("Update Recipe")
+                old_title = input("Enter the title of the recipe to update: ")
+                new_recipe = self.recipe_manager.new_recipe_from_user()
+                self.recipe_manager.update_recipe(old_title, new_recipe)
             elif choice == '5':
-                print("view_all_recipes")
-                #view_all_recipes(self.recipe_manager)
+                print("View All Recipes")
+                all_recipes = self.recipe_manager.get_all_recipes()
+                for recipe in all_recipes:
+                    print(recipe)
             elif choice == '6':
                 print("Exiting the Recipe Book. Goodbye!")
                 break
