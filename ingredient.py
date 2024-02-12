@@ -3,5 +3,5 @@ class Ingredient:
         self.name = name
         self.quantity = quantity
 
-    def __str__(self):
-        return f"{self.quantity} {self.name}"
+    def __repr__(self):
+        return f"Ingredient(name={self.name}, quantity={self.quantity})"

@@ -4,7 +4,7 @@ from database import Database
 class RecipeBook:
     
     def __init__(self):
-        self.database = Database("recipes.json")
+        self.database = Database("recipes.db")  # Change to your desired database filename
         self.recipe_manager = RecipeManager(self.database)
 
     def print_menu(self):
@@ -22,7 +22,7 @@ class RecipeBook:
             choice = input("Enter your choice (1-6): ")
 
             if choice == '1':
-                print("add_recipe")
+                print("Add Recipe")
                 self.recipe_manager.new_recipe_from_user()
                 print("Recipe added successfully!")
             elif choice == '2':
@@ -44,6 +44,7 @@ class RecipeBook:
                 old_title = input("Enter the title of the recipe to update: ")
                 new_recipe = self.recipe_manager.new_recipe_from_user()
                 self.recipe_manager.update_recipe(old_title, new_recipe)
+                print("Recipe updated successfully!")
             elif choice == '5':
                 print("View All Recipes")
                 all_recipes = self.recipe_manager.get_all_recipes()
