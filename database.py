@@ -24,28 +24,43 @@ class Database:
                        (recipe.title, ingredients_str, recipe.instructions))
         self.conn.commit()
 
+
     def search_recipe(self, title):
         cursor = self.conn.cursor()
         cursor.execute('''SELECT * FROM recipes WHERE title LIKE ?''', ('%' + title + '%',))
         rows = cursor.fetchall()
-        return [Recipe(*row[1:]) for row in rows]
+        recipes = []
+        for row in rows:
+            title, ingredients_str, instructions = row[1:]
+            ingredients = self.deserialize_ingredients(ingredients_str)
+            recipes.append(Recipe(title, ingredients, instructions))
+        return recipes
+    def deserialize_ingredients(self, ingredients_str):
+        return ingredients_str.split(', ')
+    
+    def update_recipe(self, old_title, new_recipe):
+        cursor = self.conn.cursor()
+        ingredients_str = ', '.join(new_recipe.ingredients)  # Serialize ingredients list to a string
+        cursor.execute('''UPDATE recipes SET title=?, ingredients=?, instructions=? WHERE title=?''',
+                       (new_recipe.title, ingredients_str, new_recipe.instructions, old_title))
+        self.conn.commit()
 
     def delete_recipe(self, title):
         cursor = self.conn.cursor()
         cursor.execute('''DELETE FROM recipes WHERE title = ?''', (title,))
         self.conn.commit()
 
-    def update_recipe(self, old_title, new_recipe):
-        cursor = self.conn.cursor()
-        cursor.execute('''UPDATE recipes SET title=?, ingredients=?, instructions=? WHERE title=?''',
-                       (new_recipe.title, new_recipe.ingredients, new_recipe.instructions, old_title))
-        self.conn.commit()
 
     def get_all_recipes(self):
         cursor = self.conn.cursor()
         cursor.execute('''SELECT * FROM recipes''')
         rows = cursor.fetchall()
-        return [Recipe(*row[1:]) for row in rows]
+        recipes = []
+        for row in rows:
+            title, ingredients_str, instructions = row[1:]
+            ingredients = self.deserialize_ingredients(ingredients_str)
+            recipes.append(Recipe(title, ingredients, instructions))
+        return recipes
 
     def close(self):
         self.conn.close()
