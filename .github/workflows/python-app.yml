@@ -27,6 +27,10 @@ jobs:
         pip install -r requirements.txt
         pip install pytest              
 
+    - name: Run main.py
+      run: |
+        python main.py
+
   test:
     runs-on: ubuntu-latest
     needs: build
