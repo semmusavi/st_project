@@ -4,7 +4,7 @@ from database import Database
 class RecipeBook:
     
     def __init__(self):
-        self.database = Database("recipes.db")  # Change to your desired database filename
+        self.database = Database("recipes.db")  
         self.recipe_manager = RecipeManager(self.database)
 
     def print_menu(self):
