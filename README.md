@@ -1,8 +1,8 @@
 # Advanced Software Engineering/ Musavi
-this is the README file of my project.<br>
+This repository contains my project files and here in README.md you can find the description of my project software engineering metrics.<br>
 
-My projct is RepiceBook "RezetBuch", Which consists of 6 different classes. "CookInstruction", "Database", "Ingeredient", "Recipe", "RecipeManager" and "RecipeBook" that is in "Main" file.<br>
-For this project I use python as Programming language and json for store and retrival.<br>
+My projct is a simple RepiceBook "RezetBuch", Which consists of 6 different classes "CookInstruction", "Database", "Ingeredient", "Recipe", "RecipeManager" and "RecipeBook" which is implemented in "Main" file.The project also contains functionality such as "Insert" , "Delete" , "Update" , "Delete" , "View all Recipes"<br>
+For this project I use python as Programming language and Sqllite3 as my database for store and retrival. For this project I used console as showing the result.<br>
 There is a folder which is UML there will be saved UML diagrams of the project.<br>
 
 In the following links are 3 different UML diagrams of my project:<br>
