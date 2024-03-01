@@ -1,6 +1,6 @@
 from recipeManager import RecipeManager
 from database import Database
-# this is functional programming part 
+# this is main file
 class RecipeBook:
     
     def __init__(self):
