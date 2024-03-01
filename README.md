@@ -8,7 +8,7 @@ For this project I used **Python** as Programming language and **Sqllite3** as m
 
 
 ## 1. git 
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Musavi&theme=dark&hide_border=true" alt="GitHub Streak" /></a>
+<a href="https://git.io/streak-stats"><img src="https://github.com/semmusavi/st_project.git?user=Musavi&theme=dark&hide_border=true" alt="GitHub Streak" /></a>
 In the following links are 3 different UML diagrams of my project:<br>
   1. Class Diagram : https://github.com/semmusavi/st_project/blob/main/UML/ClassDiagram.png <br>
   2. Sequence Diagram : https://github.com/semmusavi/st_project/blob/main/UML/SequenceDiagram.png <br>
