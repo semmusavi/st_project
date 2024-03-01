@@ -12,6 +12,6 @@ I used Git and Github which is used for version control, storing and tracking co
 
 ## 2. UML Diagrams
 For this Project i created 4 different UML diagram in the following you can find the links to diagrams <br>
-  1. [UseCase Diagram](https://github.com/semmusavi/st_project/blob/main/UML/UsecaseDiagram.png) <br>
+  1. [UseCase Diagram](https://github.com/semmusavi/st_project/blob/main/UML/Usecase_Diagram.png) <br>
   2. Sequence Diagram : https://github.com/semmusavi/st_project/blob/main/UML/SequenceDiagram.png <br>
   3. Class Diagram : https://github.com/semmusavi/st_project/blob/main/UML/ClassDiagram.png <br>
