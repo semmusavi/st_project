@@ -7,7 +7,7 @@ My projct is a simple RepiceBook "RezetBuch", Which consists of 6 different clas
 For this project I used **Python** as Programming language and **Sqllite3** as my database for store and retrival. For this project I used console as showing the result.<br>
 
 
-## 1. git 
+## 1. Git/Github 
 I used Git and Github which is used for version control, storing and tracking code to frequently commit and push my code to GitHub. At the very first beginning I did a pull but I did everything in my IDE my local code base was always up-to-date. My git times can be seen at the [contribution chart](https://github.com/semmusavi?tab=overview&from=2024-03-01&to=2024-03-01) in my GitHub.<br><br>
 
 ## 2. UML Diagrams
