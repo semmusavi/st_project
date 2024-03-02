@@ -18,3 +18,4 @@ For this Project I created 4 different UML diagrams in the following you can fin
   4. [Activity Diagram](https://github.com/semmusavi/st_project/blob/main/UML/Activity_diagram.png) shows the flow between different activities<br>
 
   ## 3. DDD 
+  here is the [link](https://github.com/semmusavi/st_project/blob/main/UML/DDD.png) to my DDD diagram. 
