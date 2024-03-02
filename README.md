@@ -12,7 +12,9 @@ I used Git and Github which is used for version control, storing and tracking co
 
 ## 2. UML Diagrams
 For this Project I created 4 different UML diagrams in the following you can find the links to diagrams <br>
-  1. [UseCase Diagram](https://github.com/semmusavi/st_project/blob/main/UML/Usecase_Diagram.png) <br>
-  2. [Sequence Diagram](https://github.com/semmusavi/st_project/blob/main/UML/Sequence_Diagram.png) <br>
-  3. [Class Diagram](https://github.com/semmusavi/st_project/blob/main/UML/Class_Diagram.png) <br>
-  4. [Activity Diagram](https://github.com/semmusavi/st_project/blob/main/UML/Activity_diagram.png)<br>
+  1. [UseCase Diagram](https://github.com/semmusavi/st_project/blob/main/UML/Usecase_Diagram.png) it is to present a graphical overview of the functionality provided by a system in terms of actors, their goals and any dependencies between those use cases.<br>
+  2. [Sequence Diagram](https://github.com/semmusavi/st_project/blob/main/UML/Sequence_Diagram.png) here it is shown how processes operate with one another and in what order <br>
+  3. [Class Diagram](https://github.com/semmusavi/st_project/blob/main/UML/Class_Diagram.png) here you can see the structure of a system by showing the system’s classes, their attributes, operations (or methods), and the relationships among objects.<br>
+  4. [Activity Diagram](https://github.com/semmusavi/st_project/blob/main/UML/Activity_diagram.png) shows the flow between different activities<br>
+
+  ## 3. DDD 
