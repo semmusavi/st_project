@@ -19,5 +19,11 @@ For this Project I created 4 different UML diagrams in the following you can fin
   3. [Class Diagram](https://github.com/semmusavi/st_project/blob/main/UML/Class_Diagram.png) here you can see the structure of a system by showing the system’s classes, their attributes, operations (or methods), and the relationships among objects.<br>
   4. [Activity Diagram](https://github.com/semmusavi/st_project/blob/main/UML/Activity_diagram.png) shows the flow between different activities<br>
 
-  ## 3. DDD 
-  here is the [link](https://github.com/semmusavi/st_project/blob/main/UML/DDD.png) to my DDD diagram. 
+## 3. DDD 
+here is the [link](https://github.com/semmusavi/st_project/blob/main/UML/DDD.png) to my DDD diagram.<br>
+
+## 4. Metrics
+I used SonarCloud which is Online of Sonarcube. For this I have connected my Github repository with it to analyse the source code of my project automatically. 
+*[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)
+*[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=bugs)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)
+
