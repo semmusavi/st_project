@@ -25,5 +25,12 @@ here is the [link](https://github.com/semmusavi/st_project/blob/main/UML/DDD.png
 ## 4. Metrics
 I used SonarCloud which is Online of Sonarcube. For this I have connected my Github repository with it to analyse the source code of my project automatically. 
 * [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
-* [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=bugs)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)
+* [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=bugs)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
+* [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
+* [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
+* [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
+* [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
+* [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
+* [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)
+* 
 
