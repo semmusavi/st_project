@@ -24,6 +24,6 @@ here is the [link](https://github.com/semmusavi/st_project/blob/main/UML/DDD.png
 
 ## 4. Metrics
 I used SonarCloud which is Online of Sonarcube. For this I have connected my Github repository with it to analyse the source code of my project automatically. 
-*[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)
-*[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=bugs)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)
+* [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
+* [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=bugs)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)
 
