@@ -31,6 +31,6 @@ I used SonarCloud which is Online of Sonarcube. For this I have connected my Git
 * [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
 * [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
 * [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
-* [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)
-* 
+* [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
+
 
