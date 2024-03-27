@@ -19,6 +19,7 @@ class RecipeBook:
         print("6. Exit")
 
     def run(self):
+        """Run the recipe book application."""
         while True:
             self.print_menu()
             choice = input("Enter your choice (1-6): ")
