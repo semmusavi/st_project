@@ -62,7 +62,7 @@ For implementing CI/CD pipeline using Github Action I had to use yaml file. The 
 
 In the yaml file three steps of CI/CD pipeline are implemented. 
 * In the **Build** step the the main.py will run and requirments and dependencies are installed.
-* In the **Test** step I used my unittest file.
+* In the **Test** step I used my unittest file. [Link](https://github.com/semmusavi/st_project/blob/main/Test_Step.png)
 * In the **Deploy** step after successfully completation of test step it will run and print the message "Deploy app". [Link](https://github.com/semmusavi/st_project/blob/main/Deploy_Step.png)  
 
 
