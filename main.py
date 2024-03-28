@@ -4,7 +4,7 @@ from database import Database
 class RecipeBook:
     """A simple recipe book application."""
     def __init__(self):
-         """Initialize the RecipeBook."""
+        """Initialize the RecipeBook."""
         self.database = Database("recipes.db")  
         self.recipe_manager = RecipeManager(self.database)
 
