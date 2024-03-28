@@ -48,3 +48,7 @@ I used SonarCloud which is Online of Sonarcube. For this I have connected my Git
   statements. The **run()** method is responsible for the main loop of the program, which reduces duplication of code for handling user input.
 
   * Duplicated Lines [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
+
+* Comments and Documentation:
+
+  I wrote comments and docstrings which perform  explanations for the purpose and functionality of methods and classes. These comments help code readability   and understanding of my project for work with the code in the future.
