@@ -14,7 +14,8 @@ class TestRecipeManager(unittest.TestCase):
         self.recipe_manager = RecipeManager(self.database)
 
     def test_add_recipe(self):
-        # Arrange
+        # Here the add recipe will be tested
+        # Arrange 
         recipe = Recipe("Test Recipe", ["ingredient1", "ingredient2"], "Test Instructions")
         
         # Act
