@@ -35,7 +35,7 @@ I used SonarCloud which is Online of Sonarcube. For this I have connected my Git
 
 ## 5. Clean Code Development
 
-### for my project I have followed some clean code principle which are:
+### for my project I have followed some clean code principles which are:
 
 * I used Meaningful Names:
   
