@@ -67,6 +67,16 @@ In the yaml file three steps of CI/CD pipeline are implemented.
 
 ## 8 Unit tests
 
+For this part, I used the Python unittest module to test various aspects of my project, including **classes**, **methods**, and the **database**.
+
+The test consists of these parts: 
+*  **TestRecipeManager**
+*  **TestRecipeBook**
+*  **TestRecipe**
+*  **TestIngredient**
+*  **TestCookInstruction**
+*  **TestDatabase**
+
 
 
 
