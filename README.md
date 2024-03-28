@@ -51,7 +51,7 @@ I used SonarCloud which is Online of Sonarcube. For this I have connected my Git
 
 * Comments and Docstring:
 
-  I wrote comments and docstrings which perform  explanations for the purpose and functionality of methods and classes. These comments help code readability   and understanding of my project for work with the code in the future.
+  I wrote comments and docstrings which perform  explanations for the purpose and functionality of methods and classes. These comments help code readability   and understanding of my project for work with the code in the future. This is the [Link](https://github.com/semmusavi/st_project/blob/95d258075b90e35871d0dc9a3dfd98fcd32d3037/main.py#L7) to source code
 
 ## 6 and 7:  Build Management and CI/CD
 I have considered these two parts together and have used Github action for Build Managment and Continuous Integration, and Continuous Delivery. At first I attemped to use Jenkins but I realized it is compatiable with Java screenshot of build [Jenkins_Screenshot](https://github.com/semmusavi/st_project/blob/main/jenkins_maven_build.png) , therefore I chose Github Action which is accessible via Github and consist of three steps **Build** , **Test** and **Deploy**.
