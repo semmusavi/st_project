@@ -43,5 +43,6 @@ I used SonarCloud which is Online of Sonarcube. For this I have connected my Git
   Class names (**RecipeBook**, **RecipeManager**, **Database**) are also meaningful and reflect their responsibilities.
   
 * DRY Principle (Don't Repeat Yourself):
+  
   I tried to avoid duplications.  For example, the menu display logic is encapsulated within the **print_menu()** method, avoiding duplication of print 
   statements. The **run()** method is responsible for the main loop of the program, which reduces duplication of code for handling user input.
