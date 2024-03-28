@@ -52,3 +52,6 @@ I used SonarCloud which is Online of Sonarcube. For this I have connected my Git
 * Comments and Docstring:
 
   I wrote comments and docstrings which perform  explanations for the purpose and functionality of methods and classes. These comments help code readability   and understanding of my project for work with the code in the future.
+
+## 6 and 7:  Build and CI/CD
+I have considered these two parts together and have used Github action for Build Managment and Continuous Integration, and Continuous Delivery. At first I attemped to use Maven but I realized it is compatiable with Java, therefore I chose Github Action which is accessible via Github and consist of three steps **Build** , **test** and **deploy**.
