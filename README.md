@@ -33,5 +33,15 @@ I used SonarCloud which is Online of Sonarcube. For this I have connected my Git
 * Vulnerabilities [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
 * Code Smells [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
 
-## 5. Clean Code
+## 5. Clean Code Development
 
+### for my project I have followed some clean code principle which are:
+
+* I used Meaningful Names:
+  
+  For variable and method I chose names clearly. For example, **print_menu()** method clearly indicates that it displays the menu options, **add_recipe()**    method adds a recipe, and so on.
+  Class names (**RecipeBook**, **RecipeManager**, **Database**) are also meaningful and reflect their responsibilities.
+  
+* DRY Principle (Don't Repeat Yourself):
+  I tried to avoid duplications.  For example, the menu display logic is encapsulated within the **print_menu()** method, avoiding duplication of print 
+  statements. The **run()** method is responsible for the main loop of the program, which reduces duplication of code for handling user input.
