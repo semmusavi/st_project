@@ -46,3 +46,5 @@ I used SonarCloud which is Online of Sonarcube. For this I have connected my Git
   
   I tried to avoid duplications.  For example, the menu display logic is encapsulated within the **print_menu()** method, avoiding duplication of print 
   statements. The **run()** method is responsible for the main loop of the program, which reduces duplication of code for handling user input.
+
+  * Duplicated Lines [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=semmusavi_st_project&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=semmusavi_st_project)<br>
