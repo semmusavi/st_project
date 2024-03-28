@@ -70,12 +70,14 @@ In the yaml file three steps of CI/CD pipeline are implemented.
 For this part, I used the Python unittest module to test various aspects of my project, including **classes**, **methods**, and the **database**.
 
 The test consists of these parts: 
-*  **TestRecipeManager**
-*  **TestRecipeBook**
-*  **TestRecipe**
-*  **TestIngredient**
-*  **TestCookInstruction**
-*  **TestDatabase**
+*  **TestRecipeManager** : This one tests Tests the **add_recipe()** method of the RecipeManager class 
+*  **TestRecipeBook** : This one tests the **run()** method of the RecipeBook class 
+*  **TestRecipe** : This one tests the **__rep__()** method of the Recipe class 
+*  **TestIngredient** : This one tests the **__repr__()** method of the Ingredient class
+*  **TestCookInstruction** : This one tests the **__repr__()** method of the CookInstruction class
+*  **TestDatabase** : This one tests the **insert_recipe()** method of the Database class
+
+Here is the link to my python test file of my project. [Link](https://github.com/semmusavi/st_project/blob/main/test_recipe_book.py)
 
 
 
