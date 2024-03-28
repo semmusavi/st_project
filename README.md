@@ -37,9 +37,9 @@ I used SonarCloud which is Online of Sonarcube. For this I have connected my Git
 
 ### for my project I have followed some clean code principles which are:
 
-* I used Meaningful Names:
+* I used Meaningful Names and Convention:
   
-  For variable and method I chose names clearly. For example, **print_menu()** method clearly indicates that it displays the menu options, **add_recipe()**    method adds a recipe, and so on.
+  For variable and method I chose **snake_case**. For example, **print_menu()** method clearly indicates that it displays the menu options, **add_recipe()**    method adds a recipe, and so on.
   Class names (**RecipeBook**, **RecipeManager**, **Database**) are also meaningful and reflect their responsibilities.
   
 * DRY Principle (Don't Repeat Yourself):
