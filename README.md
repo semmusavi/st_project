@@ -79,6 +79,8 @@ The test consists of these parts:
 
 Here is the link to my python test file of my project. [Link](https://github.com/semmusavi/st_project/blob/main/test_recipe_book.py)
 
+## 9 IDE 
+I have used Visual Studio Code as IDE of my project because I have already used it and I am comfortable with it here are shortcuts that I use when I code in this IDE. 
 
 
 
