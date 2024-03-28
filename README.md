@@ -56,5 +56,13 @@ I used SonarCloud which is Online of Sonarcube. For this I have connected my Git
 ## 6 and 7:  Build Management and CI/CD
 I have considered these two parts together and have used Github action for Build Managment and Continuous Integration, and Continuous Delivery. At first I attemped to use Jenkins but I realized it is compatiable with Java screenshot of build [Jenkins_Screenshot](https://github.com/semmusavi/st_project/blob/main/jenkins_maven_build.png) , therefore I chose Github Action which is accessible via Github and consist of three steps **Build** , **Test** and **Deploy**.
 
-* Here is the screenshot of Github action workflow. [screenshot](https://github.com/semmusavi/st_project/blob/main/Github_Action_workflow.png) 
+* Here is the screenshot of Github action workflow. [screenshot](https://github.com/semmusavi/st_project/blob/main/Github_Action_workflow.png)
+
+For implementing CI/CD pipeline using Github Action I had to use yaml file. The link to my yaml file is [here](https://github.com/semmusavi/st_project/blob/main/.github/workflows/python-app.yml). 
+
+In the yaml file three steps of CI/CD pipeline are implemented. 
+* In the **Build** step the the main.py will run and requirments and dependencies are installed.
+* In the **Test** step I used my unittest file.
+* In the **Deploy** step after successfully completation of test step it will run and print the message "Deploy app"  
+
 
