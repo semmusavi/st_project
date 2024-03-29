@@ -61,7 +61,7 @@ I have considered these two parts together and have used Github action for Build
 For implementing CI/CD pipeline using Github Action I had to use yaml file. The link to my yaml file is [here](https://github.com/semmusavi/st_project/blob/main/.github/workflows/python-app.yml). 
 
 In the yaml file three steps of CI/CD pipeline are implemented. 
-* In the **Build** step the the main.py will run and requirments and dependencies are installed. [Link](https://github.com/semmusavi/st_project/blob/main/Build_Step.png)
+* In the **Build** step the main.py will run and requirments and dependencies will install. [Link](https://github.com/semmusavi/st_project/blob/main/Build_Step.png)
 * In the **Test** step I used my unittest file. [Link](https://github.com/semmusavi/st_project/blob/main/Test_Step.png)
 * In the **Deploy** step after successfully completation of test step it will run and print the message "Deploy app". [Link](https://github.com/semmusavi/st_project/blob/main/Deploy_Step.png)
 
@@ -70,7 +70,7 @@ In the yaml file three steps of CI/CD pipeline are implemented.
 For this part, I used the Python unittest module to test various aspects of my project, including **classes**, **methods**, and the **database**.
 
 The test consists of these parts: 
-*  **TestRecipeManager** : This one tests Tests the **add_recipe()** method of the RecipeManager class 
+*  **TestRecipeManager** : This one tests the **add_recipe()** method of the RecipeManager class 
 *  **TestRecipeBook** : This one tests the **run()** method of the RecipeBook class 
 *  **TestRecipe** : This one tests the **__rep__()** method of the Recipe class 
 *  **TestIngredient** : This one tests the **__repr__()** method of the Ingredient class
