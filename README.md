@@ -83,7 +83,7 @@ Here is the link to my python test file of my project. [Link](https://github.com
 I have used Visual Studio Code as IDE of my project because I have already used it and I am comfortable with it here are shortcuts and code snippets which I used when I code in this IDE.
 
 * Type a shortcut like "def" and then press Tab to insert code snippet. It will insert a function template.
-* Ctrl + F5 will run the program
+* Ctrl + F5 will run the progras.
 * Ctrl + D Duplicate a line
 * Alt + Shift + . Select all intances of a word
 * Alt + select by mouse for vertical selection which you can code in multiple line at the same time  
@@ -92,3 +92,14 @@ I have used Visual Studio Code as IDE of my project because I have already used 
 For this step (Domain Specific Language) there are two file the first one which is Interpreter was implemented to read and execute the second one which is DSL. The interpreter is responsible for executing actions in RecipeBook application. The actions of interpreter will execute Add, Search, Delete, Update and View all Recipe of the project. In DSL file every line represents an action in the Recipebook Application. 
 Here is the link to the [Interpreter](https://github.com/semmusavi/st_project/blob/main/interpreter.py) 
 Here is the link to the [DSL file](https://github.com/semmusavi/st_project/blob/main/recipe_book_data.dsl)
+
+## 11 Functional Programming
+For the Functional programing principles I used python as my programming language and a simple python program to cover all aspects and it is not related to my recipebook project. 
+In the python file there are
+* list of book which represents **final data structures** and consists of collection of book with attributes like title, price and genre.
+* The process_data() function which respresents a **higher-order function**. It takes a list of books and a function as arguments, applies the function to each book using map(), and returns the result of     the list.
+* The get_price() function which respresents **side-effect free** function. It takes a book object as input and returns its price.
+* The make_genre_filter() function returns a function genre_filter as its result which respresents **Functions as Parameters and Return Values** and is used as a parameter to the filter() function. The       process_data() function takes another function
+* The make_genre_filter() function creates a **closure** with a nested function genre_filter that captures the genre variable.
+
+Here is the link to my functional programming file. [Functional programming](https://github.com/semmusavi/st_project/blob/main/functional_programming.py) 
