@@ -84,10 +84,10 @@ Here is the screenshot of test file result. [Link](https://github.com/semmusavi/
 I have used Visual Studio Code as IDE of my project because I have already used it and I am comfortable with it here are shortcuts and code snippets which I used when I code in this IDE.
 
 * Type a shortcut like "def" and then press Tab to insert code snippet. It will insert a function template.
-* Ctrl + F5 will run the progras.
+* Ctrl + F5 will run the program
 * Ctrl + D Duplicate a line
-* Alt + Shift + . Select all intances of a word
-* Alt + select by mouse for vertical selection which you can code in multiple line at the same time  
+* Alt + Shift + . Select all intances of a word then you remove or change
+* Alt + select by mouse for vertical selection which you can code in multiple line at the same time.   
 
 ## 10 DSL
 For this step (Domain Specific Language) there are two file the first one which is Interpreter was implemented to read and execute the second one which is DSL. The interpreter is responsible for executing actions in RecipeBook application. The actions of interpreter will execute Add, Search, Delete, Update and View all Recipe of the project. In DSL file every line represents an action in the Recipebook Application. 
