@@ -20,7 +20,7 @@ For this Project I created 4 different UML diagrams in the following you can fin
   4. [Activity Diagram](https://github.com/semmusavi/st_project/blob/main/UML/Activity_diagram.png) shows the flow between different activities<br>
 
 ## 3. DDD 
-here is the [link](https://github.com/semmusavi/st_project/blob/main/UML/DDD.png) to my DDD diagram.<br>
+In this link you find **Core Domain Chart**, **Context Mapping Diagram** of my project [link](https://github.com/semmusavi/st_project/blob/main/UML/DDD.png) Event Storming Diagram is here [Link]().<br>
 
 ## 4. Metrics
 I used SonarCloud which is Online of Sonarcube. For this I have connected my Github repository with it to analyse the source code of my project automatically. The Metrics of my project are listed below.
