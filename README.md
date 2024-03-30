@@ -1,7 +1,7 @@
 # Advanced Software Engineering/ Musavi
 This repository contains my project files and here in **README.md** you can find the description of my project software engineering metrics.<br><br>
 
-My projct is a simple RepiceBook "RezetBuch", Which consists of 6 different classes **CookInstruction**, **Database**, **Ingeredient**, **Recipe**, **RecipeManager** and **RecipeBook** which is implemented in **Main.py**.The project also contains functionality such as **Insert** , **Delete** , **Update** , **Search** , **View all Recipes**.<br><br>
+My project is a simple RepiceBook "RezetBuch", Which consists of 6 different classes **CookInstruction**, **Database**, **Ingeredient**, **Recipe**, **RecipeManager** and **RecipeBook** which is implemented in **Main.py**.The project also contains functionality such as **Insert** , **Delete** , **Update** , **Search** , **View all Recipes**.<br><br>
 
 
 For this project I used **Python** as Programming language and **Sqllite3** as my database for store and retrival. For this project I used console as showing the result.<br>
